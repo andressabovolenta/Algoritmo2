@@ -62,32 +62,12 @@ namespace Algoritmo2
 
             //--------------------//
 
+            //NumerosPrimos numerosPrimos = new NumerosPrimos();
             //Console.WriteLine("Digite um limite:");
-            //int limite = Convert.ToInt32(Console.ReadLine());
-            //int[] index = new int[4];
-            //index[0] = 2;
-            //index[1] = 3;
-            //index[2] = 5;
-            //index[3] = 7;            
+            //numerosPrimos.limite = Convert.ToInt32(Console.ReadLine());
+            //numerosPrimos.CalcularNumerosPrimos();
 
-            //for (int l = 1; l <= limite; l++)
-            //{
-            //    bool primo = true;
-            //    for (int i = 0; i < 4; i++)
-            //    {
-            //        int resto = l % index[i];
-
-            //        if (l != index[i] && resto == 0)
-            //        {
-            //            primo = false;
-            //            break;
-            //        }
-            //    }
-            //    if (primo == true)
-            //        Console.WriteLine(l);
-            //}
-
-
+            
             //CONTROLE DE ACESSO
 
             //string login = "andressabovolenta";
@@ -117,14 +97,18 @@ namespace Algoritmo2
 
             //--------------------//
 
-            ControleAcesso controleAcesso = new ControleAcesso();
+            //ControleAcesso controleAcesso = new ControleAcesso();
 
-            bool logado = controleAcesso.EfetuarLogin();
+            //bool logado = controleAcesso.EfetuarLogin();
 
-            if (logado)
-            {
-                Console.WriteLine("Login efetuado com sucesso.");
-            }
+            //if (logado)
+            //{
+            //    Console.WriteLine("Login efetuado com sucesso.");
+            //}
+
+            //--------------------//
+
+
         }
     }
 }
